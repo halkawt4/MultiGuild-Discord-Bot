@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { Client } = require('discord.js');
 const { ErelaClient } = require('erela.js');
-const client = new Client();
+ client = new Client();
 const StateManager = require('./utils/StateManager');
 
 const { 
