@@ -23,4 +23,4 @@ const {
   await registerMusicEvents(client.music, '../musicevents');
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events');
-})();
+})()
